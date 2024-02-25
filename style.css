@@ -19,7 +19,7 @@ body {
 
 a {
   text-decoration: none;
-  color:red;
+  color: white;
 }
 
 ul {
@@ -29,11 +29,11 @@ ul {
 
 li {
   margin-right: 20px;
-  color:#e5e7eb;
 }
 
 .section1 {
   display:flex;
+  margin: 100px 0;
 }
 
 .main-text {
@@ -41,9 +41,15 @@ li {
   color:#f9faf8;
 }
 
-.sub-text {
-  font-size:50px;
-  color: green;
+.sub-text, #headerlink {
+  font-size:18px;
+  color:#e5e7eb;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  margin-left: 50px;
 }
 
 
