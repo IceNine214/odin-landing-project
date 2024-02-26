@@ -41,6 +41,7 @@ li {
 .main-text {
   font-size:48px;
   color:#f9faf8;
+  margin-bottom: 5px;
 }
 
 .main-text, .sub-text {
@@ -56,6 +57,9 @@ button {
   padding: 8px 16px;
   border-radius: 8px;
   background-color:#3882F6;
+  border-style:none;
+  margin-top: 10px;
+  width: 100px;
 }
 
 img[src="tu-bui-tree.jpg"] {
@@ -112,8 +116,64 @@ img[src="mh-fatalis.png"] {
   margin: 0 25px;
 }
 
+.section3 {
+  background-color:#e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 50px;
+}
+
+.quote {
+  color:#1f2937;
+  font-size:36px;
+  font-style:italic;
+  font-weight:100;
+  width: 600px;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.author {
+  font-size: 24px;
+  font-weight: 900;
+  color:#1f2937;
+  display: flex;
+  justify-content: end;
+}
 
 .section4 {
   background-color: #f9faf8;
   color:#1f2937;
+  padding: 100px;
+}
+
+.call-container {
+  display: flex;
+  justify-content: space-around;
+  background-color:#3882F6;
+  border-radius: 8px;
+  color: white;
+  padding: 50px;
+  margin: 0 200px;
+}
+
+.call {
+  font-weight:bold;
+  margin-bottom: 5px;
+}
+
+.sign-up-button2 {
+  border-color: white;
+  border-style:solid;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
 }
